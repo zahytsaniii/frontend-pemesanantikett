@@ -57,15 +57,14 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 	getBookingById(id): detail pemesanan
 
 #🌐 API Interaction (Axios Wrapper)
-##Semua request API menggunakan axiosWrapper:
-
+###Semua request API menggunakan axiosWrapper:
 	import { axiosWrapper } from "@/helper/axios-wrapper";
 	axiosWrapper.get("/admin/schedules");       // GET
 	axiosWrapper.post("/admin/schedules", data); // POST
 	axiosWrapper.put("/admin/schedules/1", data); // PUT
 	axiosWrapper.delete("/admin/schedules/1");  // DELETE
-## Otomatis menyertakan token autentikasi jika ada
-## Bisa menampilkan notifikasi sukses/error
+### Otomatis menyertakan token autentikasi jika ada
+### Bisa menampilkan notifikasi sukses/error
 
 #🖥 Pages & Fitur
 ## Halaman Fitur Utama
@@ -91,38 +90,38 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 	Autentikasi user, token disimpan di Pinia
 
 # 🔄 Alur Penggunaan
-## 1. User login → token disimpan di Pinia
-## 2. User buka halaman jadwal → fetch data jadwal travel
-## 3. User pilih jadwal → submit booking → API POST
-## 4. User cek riwayat → fetch data booking
-## 5. User lakukan pembayaran → update status pembayaran
+### 1. User login → token disimpan di Pinia
+### 2. User buka halaman jadwal → fetch data jadwal travel
+### 3. User pilih jadwal → submit booking → API POST
+### 4. User cek riwayat → fetch data booking
+### 5. User lakukan pembayaran → update status pembayaran
 
 
 # 💡 Catatan Teknis
-## Modal Add/Edit/Delete menggunakan binding reactive (ref / reactive)
-## Semua action di Pinia sudah async/await dengan try/catch
-## Pesan error menggunakan Ant Design Vue message.error
-## Struktur kode modular dan terpisah antara pages, components, stores, dan helpers
+### Modal Add/Edit/Delete menggunakan binding reactive (ref / reactive)
+### Semua action di Pinia sudah async/await dengan try/catch
+### Pesan error menggunakan Ant Design Vue message.error
+### Struktur kode modular dan terpisah antara pages, components, stores, dan helpers
 
-# 📸 Screenshot (Opsional)
-## 1. Tampilan Login
+# 📸 Screenshot 
+### 1. Tampilan Login
 ![Halaman Login](./assets/login.png)
-## 2. Dashboard Admin
+### 2. Dashboard Admin
 ![Halaman Admin](./assets/dashboard-admin.png)
-## 3. Manajemen Tiket
+### 3. Manajemen Tiket
 ![Halaman Manajemen](./assets/schedule-management.png)
-## 4. Dashboard User
+### 4. Dashboard User
 ![Halaman User](./assets/dashboard-user.png)
 ![Halaman User2](./assets/dashboard-user2.png)
-## 5. Menu Pesan Tiket
+### 5. Menu Pesan Tiket
 ![Halaman Pesan](\src\assets\documentation\book-ticket.png)
-## 6. Menu Review
+### 6. Menu Review
 ![Halaman Review](./assets/review-page.png)
-## 7. Menu Pembayaran
+### 7. Menu Pembayaran
 ![Halaman Pembayaran](./assets/payment-confirmation.png)
-## 8. Pembayaran Sukses
+### 8. Pembayaran Sukses
 ![Halaman Sukses](./assets/payment-success.png)
-## 9. Invoice
+### 9. Invoice
 ![Halaman Invoice](./assets/invoice.png)
-## 10. History
+### 10. History
 ![Halaman History](./assets/history.png)
