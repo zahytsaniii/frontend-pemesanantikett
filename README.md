@@ -115,7 +115,7 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 ![Halaman User](./assets/dashboard-user.png)
 ![Halaman User2](./assets/dashboard-user2.png)
 ## 5. Menu Pesan Tiket
-![Halaman Pesan](./assets/book-ticket.png)
+![Halaman Pesan](\src\assets\documentation\book-ticket.png)
 ## 6. Menu Review
 ![Halaman Review](./assets/review-page.png)
 ## 7. Menu Pembayaran
