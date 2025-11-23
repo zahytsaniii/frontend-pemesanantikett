@@ -8,8 +8,8 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 # 🚀 Instalasi & Setup
 
 ## 1. Clone Repository
-	git clone https://github.com/zahytsaniii/frontend-pemesanantikett.git
-	cd frontend-pemesanantikett
+	git clone https://github.com/zahytsaniii/frontend-pemesanantiket.git
+	cd frontend-pemesanantiket
 
 ## 2. Install Dependencies
 	npm install
@@ -105,23 +105,23 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 
 # 📸 Screenshot 
 ### 1. Tampilan Login
-![Halaman Login](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/login.png)
+![Halaman Login](./assets/login.png)
 ### 2. Dashboard Admin
-![Halaman Admin](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/dashboard-admin.png)
+![Halaman Admin](./assets/dashboard-admin.png)
 ### 3. Manajemen Tiket
-![Halaman Manajemen](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/schedule-management.png)
+![Halaman Manajemen](./assets/schedule-management.png)
 ### 4. Dashboard User
-![Halaman User](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/dashboard-user.png)
-![Halaman User2](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/dashboard-user2.png)
+![Halaman User](./assets/dashboard-user.png)
+![Halaman User2](./assets/dashboard-user2.png)
 ### 5. Menu Pesan Tiket
-![Halaman Pesan](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/book-ticket.png)
+![Halaman Pesan](\src\assets\documentation\book-ticket.png)
 ### 6. Menu Review
-![Halaman Review](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/review-page.png)
+![Halaman Review](./assets/review-page.png)
 ### 7. Menu Pembayaran
-![Halaman Pembayaran](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/payment-confirmation.png)
+![Halaman Pembayaran](./assets/payment-confirmation.png)
 ### 8. Pembayaran Sukses
-![Halaman Sukses](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/payment-success.png)
+![Halaman Sukses](./assets/payment-success.png)
 ### 9. Invoice
-![Halaman Invoice](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/invoice.png)
+![Halaman Invoice](./assets/invoice.png)
 ### 10. History
-![Halaman History](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/4c2261e0fcef0470a9ca6b40b0bd8c50b87397e7/src/assets/documentation/history.png)
+![Halaman History](./assets/history.png)
