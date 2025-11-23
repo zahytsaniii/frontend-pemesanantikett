@@ -5,6 +5,7 @@ import { message } from "ant-design-vue";
 import AddEditScheduleModal from "../../Modal/AddEditScheduleModal.vue";
 import DeleteScheduleModal from "../../Modal/DeleteScheduleModal.vue";
 import { useTravelScheduleStore } from "@/stores/travelSchedule.store.js";
+import { useAuthStore } from "@/stores/auth.store.js";
 
 const store = useTravelScheduleStore();
 
@@ -145,6 +146,11 @@ const deleteSchedule = async () => {
     console.error(err);
     message.error("Terjadi kesalahan saat menghapus data");
   }
+};
+
+const authStore = useAuthStore();
+const handleLogout = () => {
+  authStore.logout();
 };
 </script>
 
