@@ -7,7 +7,7 @@ import ExampleLayout from '@/layouts/ExampleLayout.vue';
 import GuestMiddleware from '@/middleware/guest.middleware.js';
 
 export default [{
-    path: '/login',
+    path: '/',
     name: 'login',
     component: LoginView,
     meta: {

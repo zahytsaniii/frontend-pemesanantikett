@@ -16,7 +16,7 @@
     <ButtonPrimary :type="'submit'">
       Register
     </ButtonPrimary>
-    <ButtonDanger @click="$router.push('/login')" class="ml-3">
+    <ButtonDanger @click="$router.push('/')" class="ml-3">
       Login
     </ButtonDanger>
   </form>

@@ -16,14 +16,6 @@
       >
         Kembali ke Beranda
       </button>
-
-      <!-- <button
-        v-if="!isLoggedIn"
-        @click="$router.push('/login')"
-        class="px-6 py-3 bg-gray-700 text-white rounded-lg shadow hover:bg-gray-800"
-      >
-        Login
-      </button> -->
     </div>
   </div>
 </template>

@@ -22,9 +22,7 @@
           Selamat Datang di <span class="text-blue-600">TransKlaten</span>
         </h1>
         <p class="text-gray-600 mb-8 w-full">
-          Masuk untuk mengelola bisnis Anda dengan mudah dan efisien. MASPOS
-          menghadirkan solusi point-of-sale terbaik untuk kemudahan operasional
-          sehari-hari¸
+          Kelola perjalanan Anda dengan mudah. TransKlaten memudahkan pemesanan tiket travel kapan saja, di mana saja.
         </p>
 
         <a-form

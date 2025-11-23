@@ -55,7 +55,7 @@ export const useAuthStore = defineStore({
         Object.values(pinia._s).forEach((store) => store.$reset());
       }
 
-      router.push("/login");
+      router.push("/");
     },
   },
 });
