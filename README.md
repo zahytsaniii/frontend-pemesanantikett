@@ -113,9 +113,9 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 ### 4. Dashboard User
 ![Halaman User](./assets/dashboard-user.png)
 ![Halaman User2](./assets/dashboard-user2.png)
-### 5. Menu Pesan Tiket
-![Halaman Pesan](\src\assets\documentation\book-ticket.png)
-### 6. Menu Review
+## 5. Menu Pesan Tiket
+![Halaman Pesan](https://github.com/zahytsaniii/frontend-pemesanantikett/blob/03292db3e05fbc635ded943725eaf9eb6730bd34/src/assets/documentation/book-ticket.png)
+## 6. Menu Review
 ![Halaman Review](./assets/review-page.png)
 ### 7. Menu Pembayaran
 ![Halaman Pembayaran](./assets/payment-confirmation.png)
@@ -123,5 +123,5 @@ Aplikasi ini mendukung fitur CRUD jadwal travel, riwayat pemesanan, form pembaya
 ![Halaman Sukses](./assets/payment-success.png)
 ### 9. Invoice
 ![Halaman Invoice](./assets/invoice.png)
-### 10. History
+## 10. History
 ![Halaman History](./assets/history.png)
